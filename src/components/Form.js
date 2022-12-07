@@ -21,7 +21,6 @@ const Form = () => {
   const handleSubmit = async (e) => {
     setLoad(true);
     e.preventDefault();
-    // https://v1.nocodeapi.com/ethannguyen/google_sheets/HVBhJJTAvwVrgdZn?tabId=Trang tính1
     try {
       const response = await fetch(
         "https://v1.nocodeapi.com/ethannguyen/google_sheets/PPmmWptvGIEsLFVw?tabId=Trang tính1",
@@ -49,6 +48,7 @@ const Form = () => {
         name: "",
         phone: "",
         email: "",
+        amount: "",
         company: "",
         message: "",
       });
@@ -148,7 +148,7 @@ const Form = () => {
                     <div className="relative inline-block">
                       <button
                         type="submit"
-                        className="h-[40px] btn-register inline-flex flex-col items-center justify-center leading-[0.8] relative z-[10] group uppercase px-[20px]"
+                        className="h-[40px] btn-register inline-flex flex-col items-center justify-center leading-[1] relative z-[10] group uppercase px-[20px]"
                       >
                         Đăng ký tư vấn chi tiết
                       </button>
@@ -157,7 +157,7 @@ const Form = () => {
                     <div className="relative inline-block">
                       <button
                         type="submit"
-                        className="btn-register h-[40px] px-[20px] inline-flex items-center justify-center leading-[0.8] relative z-[10]"
+                        className="btn-register h-[40px] px-[20px] inline-flex items-center justify-center leading-[1] relative z-[10]"
                       >
                         <svg
                           class="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
