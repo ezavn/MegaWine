@@ -18,14 +18,14 @@ const Register = () => {
           <h2 className="text-[32px] text-center md:text-left md:text-[40px] font-bold uppercase">
             Liên hệ ngay
           </h2>
-          <p className="mb-[15px] md:mb-[30px]">
+          <p className="mb-[10px] md:mb-[30px]">
             Để được tư vấn chi tiết về sản phầm và các dịch vụ đi kèm
           </p>
-          <p className="mb-[15px] md:mb-[30px]">
+          <p className="mb-[10px] md:mb-[30px]">
             * Lựa chọn Quà tết với những thức quà tuyển tính tế cùng rượu vang
             đẳng cấp.
           </p>
-          <p className="mb-[15px] md:mb-[30px]">
+          <p className="mb-[10px] md:mb-[30px]">
             * MEGA WINE đồng hành cùng Quý khách để tạo nên một cái Tết Khởi sắc
             - Vinh hoa thông qua Set quà Tết lịch sự, tinh tế.
           </p>

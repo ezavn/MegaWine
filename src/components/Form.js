@@ -70,7 +70,7 @@ const Form = () => {
                   <div className="flex-1 field">
                     <div className="field-item">
                       <input
-                        className="px-[17px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[64px] md:h-[64px] border border-[#a08062] rounded-[10px]"
+                        className="px-[17px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[54px] md:h-[64px] border border-[#a08062] rounded-[10px]"
                         type="text"
                         id="name"
                         name="name"
@@ -82,7 +82,7 @@ const Form = () => {
                     </div>
                     <div className="field-item">
                       <input
-                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[64px] md:h-[64px]"
+                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[54px] md:h-[64px]"
                         id="email"
                         name="email"
                         placeholder="Nhập Email"
@@ -96,7 +96,7 @@ const Form = () => {
                   <div className="field">
                     <div className="field-item">
                       <input
-                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[64px] md:h-[64px]"
+                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[54px] md:h-[64px]"
                         id="phone"
                         name="phone"
                         placeholder="Nhập số điện thoại"
@@ -108,7 +108,7 @@ const Form = () => {
                     </div>
                     <div className="field-item">
                       <input
-                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[64px] md:h-[64px]"
+                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[54px] md:h-[64px]"
                         id="amount"
                         name="amount"
                         placeholder="Số lượng"
@@ -121,7 +121,7 @@ const Form = () => {
                   <div className="field">
                     <div className="field-item">
                       <input
-                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[64px] md:h-[64px]"
+                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[54px] md:h-[64px]"
                         id="company"
                         name="company"
                         placeholder="Tên công ty/doanh nghiệp"
@@ -132,7 +132,7 @@ const Form = () => {
                     </div>
                     <div className="field-item">
                       <input
-                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[64px] md:h-[64px]"
+                        className="px-[17px]  border border-[#a08062] rounded-[10px] bg-transparent outline-none w-full placeholder:text-sm placeholder:text-brown placeholder:font-medium text-brown h-[54px] md:h-[64px]"
                         id="message"
                         name="message"
                         placeholder="Để lại lời nhắn cho chúng tôi"
@@ -151,17 +151,7 @@ const Form = () => {
                         className="h-[40px] btn-register inline-flex flex-col items-center justify-center leading-[0.8] relative z-[10] group uppercase px-[20px]"
                       >
                         Đăng ký tư vấn chi tiết
-                        <img
-                          className="group-hover:translate-x-[10px] transition-all"
-                          srcSet="/icons/arrow-icon.png 2x"
-                          alt=""
-                        />
                       </button>
-                      <img
-                        className="absolute bottom-[-14px] h-[25px] right-[-17px] z-[5]"
-                        srcSet="/images/yellow-line.png 2x"
-                        alt=""
-                      />
                     </div>
                   ) : (
                     <div className="relative inline-block">
@@ -191,11 +181,6 @@ const Form = () => {
                         </svg>
                         <span>ĐANG GỬI</span>
                       </button>
-                      <img
-                        className="absolute bottom-[-14px] h-[25px] right-[-17px] z-[5]"
-                        srcSet="/images/yellow-line.png 2x"
-                        alt=""
-                      />
                     </div>
                   )}
                 </div>

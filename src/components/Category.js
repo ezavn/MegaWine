@@ -89,7 +89,10 @@ const Category = () => {
           <div className="category-item" onClick={() => setShowEight(true)}>
             <img src="/images/set8.png" alt="" />
           </div>
-          <div className="category-item" onClick={() => setShowNine(true)}>
+          <div
+            className="category-item --last"
+            onClick={() => setShowNine(true)}
+          >
             <img src="/images/set9.png" alt="" />
           </div>
         </div>
