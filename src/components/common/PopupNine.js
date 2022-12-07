@@ -15,14 +15,17 @@ const PopupNine = () => {
               <img srcSet="/images/decor2.png 2x" alt="" />
             </div>
             <div className="pt-[80px] pb-[20px] md:pb-[30px] pl-[28px]">
-              <p className="text-[18px]">
-                <span className="text-[24px] md:text-[36px] leading-[1]">
+              <p className="text-[14px] md:text-[18px]">
+                <span className="text-[24px] md:text-[36px] leading-[1] md:inline-block hidden">
                   GIÁ CỦA SET QUÀ
+                </span>{" "}
+                <span className="text-[16px] leading-[1] inline-block md:hidden">
+                  GIÁ CỦA SET QUÀ GORU VERDU
                 </span>{" "}
                 <br />
                 (Chưa bao gồm rượu)
               </p>
-              <h3 className="text-[40px] md:text-[54px] text-[#FFD99B] font-bold leading-[1] mb-[15px] md:mb-[30px]">
+              <h3 className="text-[32px] md:text-[54px] text-[#FFD99B] font-bold leading-[1] mb-[15px] md:mb-[30px]">
                 935.000 VNĐ
               </h3>
               <h4 className="text-[20px] md:text-[32px] font-bold leading-[1] mb-[10px] md:mb-[15px]">

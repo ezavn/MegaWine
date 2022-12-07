@@ -169,13 +169,13 @@ const Top = () => {
           </div>
         </div>
         <div>
-          <h2 className="uppercase text-[20px] md:text-[30px] text-yellow text-center mb-[20px] md:mb-[30px]">
-            <span className="leading-[1] text-[42px] md:text-[60px] font-extrabold">
+          <h2 className="uppercase text-[14px] md:text-[18px] font-medium text-yellow text-center mb-[20px] md:mb-[30px]">
+            <span className="leading-[1] text-[30px] md:text-[45px] font-extrabold">
               top 8
             </span>{" "}
             <br />
             sản phẩm dành cho người{" "}
-            <span className="text-[30px] md:text-[40px] font-bold leading-[1]">
+            <span className="text-[14px] md:text-[24px] font-bold leading-[1]">
               sành rượu
             </span>
           </h2>

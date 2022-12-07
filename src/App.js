@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Category from "./components/Category";
 import Category2 from "./components/Category2";
 import Client from "./components/Client";
+import Contact from "./components/common/Contact";
 import PopupEight from "./components/common/PopupEight";
 import PopupFive from "./components/common/PopupFive";
 import PopupFour from "./components/common/PopupFour";
@@ -45,6 +46,7 @@ function App() {
         <PopupSeven></PopupSeven>
         <PopupEight></PopupEight>
         <PopupNine></PopupNine>
+        <Contact></Contact>
       </PopupProvider>
     </>
   );

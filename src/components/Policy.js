@@ -8,10 +8,20 @@ const Policy = () => {
           Tham khảo chính sách ưu đãi của mega wine
         </div>
         <div className="flex items-end">
-          <a href="/" className="inline-block">
+          <a
+            href="https://drive.google.com/file/d/1s8tI_Jrdo7sbx5nO6vHCuldkjAgtHD7h/view?usp=sharing"
+            target="_blank"
+            className="inline-block"
+            rel="noreferrer"
+          >
             <img className="" src="/images/policy-1.png" alt="" />
           </a>
-          <a href="/" className="inline-block">
+          <a
+            href="https://drive.google.com/file/d/1Q7xt5hfUAHCMfOQSrcMVwhv9mpieBX2D/view?usp=sharing"
+            target="_blank"
+            className="inline-block"
+            rel="noreferrer"
+          >
             <img className="" src="/images/policy-2.png" alt="" />
           </a>
         </div>
