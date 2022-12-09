@@ -19,6 +19,8 @@ import Register from "./components/Register";
 import Top from "./components/Top";
 import Why from "./components/Why";
 import { PopupProvider } from "./contexts/popupContext";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (

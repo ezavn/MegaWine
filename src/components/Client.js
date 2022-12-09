@@ -1,6 +1,29 @@
 import React from "react";
+import Slider from "react-slick";
 
 const Client = () => {
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "60px",
+    slidesToShow: 2,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "ease",
+    nextArrow: <ClientNext />,
+    prevArrow: <ClientPrev />,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "40px",
+        },
+      },
+    ],
+  };
   return (
     <section className="relative w-full page-container">
       <div className="absolute top-0 left-0">
@@ -25,6 +48,46 @@ const Client = () => {
             </p>
           </div>
         </h2>
+        <div className="client-slide">
+          <Slider {...settings}>
+            <div className="client-slide-item">
+              <img
+                src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+              />
+            </div>
+            <div className="client-slide-item">
+              <img
+                src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+              />
+            </div>
+            <div className="client-slide-item">
+              <img
+                src="https://images.unsplash.com/photo-1558670460-cad0c19b1840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                alt=""
+              />
+            </div>
+            <div className="client-slide-item">
+              <img
+                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+              />
+            </div>
+            <div className="client-slide-item">
+              <img
+                src="https://images.unsplash.com/photo-1471967183320-ee018f6e114a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+                alt=""
+              />
+            </div>
+            <div className="client-slide-item">
+              <img
+                src="https://images.unsplash.com/photo-1562673478-900ecbd319cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                alt=""
+              />
+            </div>
+          </Slider>
+        </div>
       </div>
       <div className="absolute top-0 right-0">
         <img
@@ -36,5 +99,27 @@ const Client = () => {
     </section>
   );
 };
+
+function ClientNext(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={`client-next ${className}`}
+      style={{ ...style, display: "flex" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function ClientPrev(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={`client-prev ${className}`}
+      style={{ ...style, display: "flex" }}
+      onClick={onClick}
+    />
+  );
+}
 
 export default Client;

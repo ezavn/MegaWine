@@ -45,7 +45,7 @@ const Top = () => {
               CAMPI RUDI
             </Top10>
             <Top10 src="/images/wine-3.png" cash="590.000 vnđ">
-              MOSCATO SPARKLING <br /> SPUMANTE
+              MARANELLO MOSCATO <br /> SPARKLING SPUMANTE
             </Top10>
             <Top10 src="/images/wine-4.png" cash="610.000 vnđ">
               THIEVERY ZINFANDEL
@@ -60,10 +60,10 @@ const Top = () => {
               ACUMA
             </Top10>
             <Top10 src="/images/wine-8.png" cash="790.000 vnđ">
-              CHATEAU BEL VUE
+              CHÂTEAU BELVUE BORDEAUX
             </Top10>
             <Top10 src="/images/wine-9.png" cash="1.030.000 vnđ">
-              MILLEFIORI
+              MILLEFIORI NEGROAMARO
             </Top10>
             <Top10 src="/images/wine-10.png" cash="1.400.000 vnđ">
               KHỔNG TƯỚC <br /> MONTEPULCIANO
@@ -88,16 +88,16 @@ const Top = () => {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-x-[10px] gap-y-[10px] md:gap-y-[20px] px-[20px] md:px-[35px] pb-[20px] md:pb-[35px] pt-[40px] md:pt-[55px]">
             <Top10 src="/images/wine-11.png" cash="460.000 vnđ">
-              CHATEAU BEL AIR
+              CHÂTEAU BEL AIR LA PERRIERE
             </Top10>
             <Top10 src="/images/wine-12.png" cash="495.000 vnđ">
-              GEARBOX CABERNET <br /> SAUVIGNON
+              GEARBOX CABERNET SAUVIGNON
             </Top10>
             <Top10 src="/images/wine-13.png" cash="500.000 vnđ">
               ALTO VUELO RESERVA <br /> SYRAH
             </Top10>
             <Top10 src="/images/wine-14.png" cash="590.000 vnđ">
-              CHATEAU DUPA
+              CHÂTEAU DUPA BORDEAUX
             </Top10>
             <Top10 src="/images/wine-15.png" cash="680.000 vnđ">
               SERECTO CABERNET <br /> SAUVIGON
@@ -106,13 +106,13 @@ const Top = () => {
               XANTHOS SYRAH CALI
             </Top10>
             <Top10 src="/images/wine-17.png" cash="890.000 vnđ">
-              OCTOPODA CABERNET <br /> SAUVIGON CALI
+              OCTOPODA CABERNET SAUVIGON CALIFORNIA
             </Top10>
             <Top10 src="/images/wine-18.png" cash="1.250.000 vnđ">
-              BELAN
+              BELAN PRIMITIVO DI MANDURIA
             </Top10>
             <Top10 src="/images/wine-19.png" cash="1.350.000 vnđ">
-              FABIANO RIPASSO
+              FABIANO VALPOLICELLA RIPASSO
             </Top10>
             <Top10 src="/images/wine-20.png" cash="1.400.000 vnđ">
               SYRAH 17
@@ -146,25 +146,25 @@ const Top = () => {
               GEARBOX PINOT NOIR
             </Top10>
             <Top10 src="/images/wine-24.png" cash="495.000 vnđ">
-              SPATLESE KENER
+              WELTACHS SPATLESE KERNER
             </Top10>
             <Top10 src="/images/wine-25.png" cash="550 .000 vnđ">
-              AUSLESE
+              WELTACHS AUSLESE SAPHIRA
             </Top10>
             <Top10 src="/images/wine-26.png" cash="730.000 vnđ">
-              PASSITIVO APASSIMENTO <br /> PRIMITIVO ORGANIC
+              PASSITIVO APASSIMENTO PRIMITIVO ORGANIC
             </Top10>
             <Top10 src="/images/wine-27.png" cash="780.000 vnđ">
               LINDSAY MOSCATO <br /> ROSE
             </Top10>
             <Top10 src="/images/wine-28.png" cash="950.000 vnđ">
-              CLETUS
+              CLETUS TOSCANA
             </Top10>
             <Top10 src="/images/wine-29.png" cash="980.000 vnđ">
               NAVIGATOR ROSE
             </Top10>
             <Top10 src="/images/wine-30.png" cash="1.200.000 vnđ">
-              GUSTIN
+              LA BOLLINA GUSTÌN ROSSO
             </Top10>
           </div>
         </div>
@@ -180,30 +180,29 @@ const Top = () => {
             </span>
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-[10px] gap-y-[10px] md:gap-y-[20px]">
-            <TopItem src="/images/top8-1.png" cash="295.000 vnđ">
+            <TopItem src="/images/top8-1.png" cash="1.250.000 vnđ">
               cuvee 16
             </TopItem>
-            <TopItem src="/images/top8-2.png" cash="295.000 vnđ">
-              chateau orme brun <br />
-              saint emilion
+            <TopItem src="/images/top8-2.png" cash="1.250.000 vnđ">
+              CHÂTEAU ORME BRUN SAINT-EMILION
             </TopItem>
-            <TopItem src="/images/top8-3.png" cash="295.000 vnđ">
+            <TopItem src="/images/top8-3.png" cash="1.500.000 vnđ">
               cuvee 17
             </TopItem>
-            <TopItem src="/images/top8-4.png" cash="295.000 vnđ">
+            <TopItem src="/images/top8-4.png" cash="1.600.000 vnđ">
               vik a
             </TopItem>
-            <TopItem src="/images/top8-5.png" cash="295.000 vnđ">
+            <TopItem src="/images/top8-5.png" cash="2.100.000 vnđ">
               navigator cabernet <br />
               sauvignon napa valley
             </TopItem>
-            <TopItem src="/images/top8-6.png" cash="295.000 vnđ">
+            <TopItem src="/images/top8-6.png" cash=" 2.500.000 vnđ">
               goru 18m
             </TopItem>
-            <TopItem src="/images/top8-7.png" cash="295.000 vnđ">
+            <TopItem src="/images/top8-7.png" cash="4.300.000 vnđ">
               fabiano amarone
             </TopItem>
-            <TopItem src="/images/top8-8.png" cash="295.000 vnđ">
+            <TopItem src="/images/top8-8.png" cash="4.500.000 vnđ">
               domus aurea
             </TopItem>
           </div>
