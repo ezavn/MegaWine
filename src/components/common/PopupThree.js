@@ -7,14 +7,14 @@ const PopupThree = () => {
     <>
       {showThree ? (
         <div className="overlay">
-          <div className="bg-[#D60D45] rounded-[20px] w-[320px] md:w-[833px] relative flex flex-col md:flex-row items-end mt-[40px] md:mt-[60px] z-[10]">
+          <div className="bg-[#D60D45] rounded-[20px] w-[320px] md:w-[833px] relative flex flex-col md:flex-row mt-[40px] md:mt-[60px] z-[10] items-center">
             <div className="absolute top-[-50px] md:top-[-80px] left-[-30px] md:left-[-56px] w-[200px] md:w-auto">
               <img srcSet="/images/decor1.png 2x" alt="" />
             </div>
             <div className="absolute bottom-[-30px] right-[-40px] md:bottom-[-45px] md:right-[-85px] w-[150px] md:w-auto">
               <img srcSet="/images/decor2.png 2x" alt="" />
             </div>
-            <div className="pt-[80px] pb-[20px] md:pb-[30px] pl-[28px]">
+            <div className="pt-[80px] pb-[20px] md:pb-[30px] pl-[28px] flex-1">
               <p className="text-[14px] md:text-[18px]">
                 <span className="text-[24px] md:text-[36px] leading-[1] md:inline-block hidden">
                   GIÁ CỦA SET QUÀ
@@ -45,7 +45,11 @@ const PopupThree = () => {
               </div>
             </div>
             <div className="pt-[30px] md:block hidden">
-              <img src="/images/gift.png" alt="" />
+              <img
+                className="w-[350px]"
+                srcSet="/images/tailoc.png 2x"
+                alt=""
+              />
             </div>
             <div
               className="absolute bottom-[-80px] md:bottom-[-125px] left-[50%] translate-x-[-50%] cursor-pointer h-[80px] md:h-auto"

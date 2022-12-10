@@ -14,7 +14,7 @@ const PopupFive = () => {
             <div className="absolute bottom-[-30px] right-[-40px] md:bottom-[-45px] md:right-[-85px] w-[150px] md:w-auto">
               <img srcSet="/images/decor2.png 2x" alt="" />
             </div>
-            <div className="pt-[80px] pb-[20px] md:pb-[30px] pl-[28px]">
+            <div className="pt-[80px] pb-[20px] md:pb-[30px] pl-[28px] flex-1">
               <p className="text-[14px] md:text-[18px]">
                 <span className="text-[24px] md:text-[36px] leading-[1] md:inline-block hidden">
                   GIÁ CỦA SET QUÀ
@@ -44,7 +44,11 @@ const PopupFive = () => {
               </div>
             </div>
             <div className="pt-[30px] md:block hidden">
-              <img src="/images/gift.png" alt="" />
+              <img
+                className="w-[350px] h-[480px]"
+                srcSet="/images/phuctho.png 2x"
+                alt=""
+              />
             </div>
             <div
               className="absolute bottom-[-80px] md:bottom-[-125px] left-[50%] translate-x-[-50%] cursor-pointer h-[80px] md:h-auto"
