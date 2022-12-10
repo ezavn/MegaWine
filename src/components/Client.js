@@ -51,40 +51,25 @@ const Client = () => {
         <div className="client-slide">
           <Slider {...settings}>
             <div className="client-slide-item">
-              <img
-                src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt=""
-              />
+              <img src="/images/client-1.jpg" alt="" />
             </div>
             <div className="client-slide-item">
-              <img
-                src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt=""
-              />
+              <img src="/images/client-2.jpg" alt="" />
             </div>
             <div className="client-slide-item">
-              <img
-                src="https://images.unsplash.com/photo-1558670460-cad0c19b1840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
-                alt=""
-              />
+              <img src="/images/client-3.jpg" alt="" />
             </div>
             <div className="client-slide-item">
-              <img
-                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt=""
-              />
+              <img src="/images/client-4.jpg" alt="" />
             </div>
             <div className="client-slide-item">
-              <img
-                src="https://images.unsplash.com/photo-1471967183320-ee018f6e114a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-                alt=""
-              />
+              <img src="/images/client-5.jpg" alt="" />
             </div>
             <div className="client-slide-item">
-              <img
-                src="https://images.unsplash.com/photo-1562673478-900ecbd319cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-                alt=""
-              />
+              <img src="/images/client-6.jpg" alt="" />
+            </div>
+            <div className="client-slide-item">
+              <img src="/images/client-7.jpg" alt="" />
             </div>
           </Slider>
         </div>
