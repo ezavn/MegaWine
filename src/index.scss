@@ -136,6 +136,19 @@
     left: unset !important;
     right: 50px !important;
   }
+  @media (max-width: 767px) {
+    &-prev,
+    &-next {
+      width: 50px !important;
+      height: 50px !important;
+    }
+    &-prev {
+      right: 70px !important;
+    }
+    &-next {
+      right: 15px !important;
+    }
+  }
 }
 
 .arrow {

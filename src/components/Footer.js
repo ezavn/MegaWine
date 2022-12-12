@@ -33,20 +33,20 @@ const Footer = () => {
               Phường An Phú, TP Thủ Đức (Quận 2)
             </span>
           </p>
-          <p className="text-[24px] md:text-[47px] font-bold">
-            Hotline: 093 878 50 81
+          <p className="text-justify md:text-center text-[18px] md:text-[32px] font-bold">
+            Hotline: 0938 785 081 - 0909 111 925
           </p>
           <p className="text-[13px] md:text-[18px] flex flex-col text-justify">
             <a
               className="inline-flex items-center gap-x-[5px] md:gap-x-[10px]"
-              href="mailto:order@mega-wine.com.vn"
+              href="mailto:dathang@ruouvanglejus.com.vn"
             >
               <img
                 className="w-[20px] md:w-[32px]"
                 src="/icons/email.png"
                 alt=""
               />{" "}
-              Email: order@mega-wine.com.vn
+              Email: dathang@ruouvanglejus.com.vn
             </a>
             <a
               className="inline-flex items-center gap-x-[5px] md:gap-x-[10px]"
