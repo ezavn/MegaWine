@@ -4,7 +4,7 @@ import Form from "./Form";
 const Register = () => {
   return (
     <section className="page-container pb-[40px] md:pb-[50px] pdMobile">
-      <div className="register rounded-[20px] flex flex-col md:flex-row md:gap-[40px] md:pb-[40px] md:pr-[45px] md:pl-[70px] md:pt-[60px] px-[20px] py-[30px] relative">
+      <div className="register rounded-[20px] flex flex-col lg:flex-row md:gap-[40px] md:pb-[40px] md:pr-[45px] md:pl-[70px] md:pt-[60px] px-[20px] py-[30px] relative">
         <div className="absolute top-0 left-0 w-[60px] md:w-[70px]">
           <img src="/images/f.png" alt="" />
         </div>

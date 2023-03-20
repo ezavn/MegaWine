@@ -13,7 +13,7 @@ const Top = () => {
           MEGA WINE giới thiệu Danh sách các loại rượu hàng đầu{" "}
           <br className="hidden-mb" /> để Quý khách hàng dễ dàng chọn lựa!
           <img
-            className="absolute top-[10px] right-[-20px] md:block hidden"
+            className="absolute top-[30px] lg:top-[10px] right-0 lg:right-[-20px] md:block hidden"
             srcSet="/images/line-r.png 2x"
             alt=""
           />

@@ -61,12 +61,18 @@
   &-item {
     flex: 1;
   }
-  @media (max-width: 767px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
     &-item {
       width: 100%;
     }
   }
+  // @media (max-width: 767px) {
+  //   flex-direction: column;
+  //   &-item {
+  //     width: 100%;
+  //   }
+  // }
 }
 
 .register {
@@ -135,6 +141,14 @@
   &-prev {
     left: unset !important;
     right: 50px !important;
+  }
+  @media (max-width: 1024px) {
+    &-prev {
+      right: 100px !important;
+    }
+    &-next {
+      right: 22px !important;
+    }
   }
   @media (max-width: 767px) {
     &-prev,
